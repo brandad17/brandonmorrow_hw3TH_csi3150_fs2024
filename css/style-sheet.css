@@ -1,0 +1,413 @@
+/* import the google api font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+ /* supress browser defaults and select alternate box model*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif, Tahoma;
+}
+
+body {
+      display: flexbox;
+      background-color: var(--bg-primary); /*Alice Blue*/
+      height: 100%;
+      margin: 0%;
+      align-items: center;
+      justify-content: center;
+}
+
+.hero {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("/assets/img/title-background.jpg");
+    background-size: 1000px 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo {
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 60px;
+    color: #b3ff2e;
+}
+
+.subtitle {
+    font-size: 15px;
+    color: #ccb494;
+    margin-top: 50px;
+}
+
+.first-arrow {
+    margin-top: 100px;
+}
+
+.intro {
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("/assets/img/intro-background.jpg");
+    background-size: 1000px 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section-heading {
+    color: #ccb494;
+    text-wrap: wrap;
+    flex-direction: column;
+    font-size: 70px;
+    width: 400px;
+}
+
+.intro-left {
+    justify-content: left;
+    margin-left: 275px;
+    margin-top: 100px;
+}
+
+.intro-right {
+    flex-direction: column;
+    margin-top: 100px;
+    margin-right: 250px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.intro-description {
+    text-wrap: wrap;
+    flex-direction: column;
+    width: 400px;
+    font-size: 14px;
+    color: #b3ff2e;
+    margin-bottom: 25px;
+}
+
+.cta-btn {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 15px;
+    background-color: #b3ff2e;
+}
+
+.cta-btn a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.sites {
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    background-image: url(/assets/img/sites-background.jpg);
+    background-size: 1000px 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+}
+
+.sites-section-heading {
+    display: flex;
+    color: #b3ff2e;
+    align-items: center;
+    flex-direction: column;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    margin-bottom: 20px;
+}
+
+.sites-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.sites-container1, .sites-container2, .sites-container3 {
+    position: relative;
+    margin: 10px;
+}
+
+.sites-img {
+    height: 300px;
+    width: 250px;
+    display: block;
+}
+
+.sites-container1-title, .sites-container2-title, .sites-container3-title {
+    position: absolute;
+    bottom: 50px;
+    left: 10px; 
+    color: #ffffff; /* Change color to ensure readability against the image */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background */
+    padding: 5px; /* Optional: add some padding for better spacing */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+.sites-container3-title {
+    color: #000000; /* Change color to ensure readability against the image */
+}
+
+.box-icon {
+    position: absolute;
+    bottom: 10px; /* Adjust this to move the icon up/down */
+    left: 10px; /* Align with the title */
+    font-size: 24px; /* Adjust size as needed */
+    color: #b3ff2e; /* Match the icon color */
+}
+
+.sites-cta-btn {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 15px;
+    background-color: #b3ff2e;
+    justify-content: center;
+    align-items: center;
+}
+
+.sites-cta-btn a {
+        text-decoration: none;
+}
+
+.recommendations {
+    display: flex;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    background-image: url(/assets/img/recommendations-background.jpg);
+    background-size: 1000px 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15px
+}
+
+.recommendations-heading {
+    color: #b3ff2e;
+    text-wrap: wrap;
+    flex-direction: column;
+    font-size: 60px;
+    width: 400px;
+    margin-left: 275px;
+    margin-bottom: 300px;
+}
+
+.recommendations-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin-top: 125px;
+    margin-bottom: 45px;
+}
+
+.rec {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 25px;
+    font-size: 15px;
+}
+
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 600px;
+    text-align: center;
+    background-image: url(/assets/img/stats-background.jpg);
+    background-size: 1000px 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#stats-first {
+    margin-left: 330px;
+}
+
+.stats-wrapper {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    background-color: #000000;
+    color: #b3ff2e;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.stats-wrapper h3 {
+    font-size: 50px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    background-image: url(/assets/img/testimonial-background.jpg);
+    background-size: 1000px 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15px
+}
+
+.testimonial img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+.testimonial p {
+    background-color: #000000;
+    color: #b3ff2e;
+    text-wrap: wrap;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.testimonial h3 {
+    margin-top: 25px;
+    background-color: #000000;
+    color: #b3ff2e;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
+.gallery {
+    display: flex;
+    width: 600px; /* Set the width of the gallery */
+    height: 375px; /* Set the height of the gallery */
+    margin-left: 261px;
+}
+
+/* FIIIIIIIIXXXXXXXXX */
+
+.gallery-pic {
+    flex: 1; /* Allow each picture to grow equally */
+}
+
+footer {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    background-image: url(/assets/img/footer-image.jpg);
+    background-size: 1000px 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    max-width: 1200px; /* Set a max width for the footer */
+    margin: 0 auto; /* Center the footer */
+}
+
+.left-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 40px;
+    padding-left: 100px;
+}
+
+.contact-us {
+    color: #b3ff2e;
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+.contact-info {
+    color: #b3ff2e;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box-icon {
+    color: #b3ff2e;
+    margin-right: 15px;
+}
+
+.info-submission {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.right-wrapper {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 300px;
+}
+
+.right-wrapper form {
+    padding: 10px;
+}
+
+.right-wrapper form input {
+    padding: 10px;
+}
+
+.info-submission input[type="text"],
+.info-submission input[type="email"],
+.info-submission textarea {
+    border: 2px solid #000000;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 10pt;
+    width: 100%; /* Full width of the container */
+    margin-bottom: 15px;
+    padding: 10px; /* Added padding for consistency */
+    opacity: .5; /* Consistent opacity */
+}
+
+.info-submission input[type="text"],
+.info-submission input[type="email"] {
+    height: 30px; /* Consistent height for text and email inputs */
+}
+
+.info-submission textarea {
+    resize: none;
+    height: 100px; /* Specific height for textarea */
+    line-height: normal;
+}
+
+
+.submit {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 15px;
+    background-color: #b3ff2e;
+}
