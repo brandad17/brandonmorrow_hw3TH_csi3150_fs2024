@@ -23,7 +23,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-image: url("/assets/img/title-background.jpg");
+    background-image: url("./assets/img/title-background.jpg");
     background-size: 1000px 600px;
     background-repeat: no-repeat;
     background-position: center;
@@ -54,7 +54,7 @@ body {
     height: 600px;
     display: flex;
     justify-content: space-around;
-    background-image: url("/assets/img/intro-background.jpg");
+    background-image: url("./assets/img/intro-background.jpg");
     background-size: 1000px 600px;
     background-repeat: no-repeat;
     background-position: center;
@@ -112,7 +112,7 @@ body {
     height: 600px;
     align-items: center;
     text-align: center;
-    background-image: url(/assets/img/sites-background.jpg);
+    background-image: url(./assets/img/sites-background.jpg);
     background-size: 1000px 600px;
     background-repeat: no-repeat;
     background-position: center;
@@ -193,7 +193,7 @@ body {
     height: 600px;
     align-items: center;
     text-align: center;
-    background-image: url(/assets/img/recommendations-background.jpg);
+    background-image: url(./assets/img/recommendations-background.jpg);
     background-size: 1000px 600px;
     background-repeat: no-repeat;
     background-position: center;
@@ -231,7 +231,7 @@ body {
     align-items: center;
     height: 600px;
     text-align: center;
-    background-image: url(/assets/img/stats-background.jpg);
+    background-image: url(./assets/img/stats-background.jpg);
     background-size: 1000px 600px;
     background-repeat: no-repeat;
     background-position: center;
@@ -264,7 +264,7 @@ body {
     height: 600px;
     align-items: center;
     text-align: center;
-    background-image: url(/assets/img/testimonial-background.jpg);
+    background-image: url(./assets/img/testimonial-background.jpg);
     background-size: 1000px 600px;
     background-repeat: no-repeat;
     background-position: center;
@@ -314,7 +314,7 @@ footer {
     align-items: center;
     text-align: center;
     justify-content: flex-start;
-    background-image: url(/assets/img/footer-image.jpg);
+    background-image: url(./assets/img/footer-image.jpg);
     background-size: 1000px 600px;
     background-repeat: no-repeat;
     background-position: center;
